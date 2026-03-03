@@ -1,11 +1,7 @@
 import re
 
-from rich.traceback import install
-
 from client import OpenAIClient
 from tools import AVAILABLE_TOOLS
-
-install()
 
 user_prompt = input("Chat with Deepseek: ")
 
