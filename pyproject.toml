@@ -2,9 +2,11 @@
 name = "helloagents"
 version = "0.1.0"
 description = "Add your description here"
-requires-python = ">=3.9"
+requires-python = ">=3.14"
 dependencies = [
+    "hello-agents>=0.2.0",
     "openai>=2.24.0",
+    "python-dotenv>=1.2.2",
     "rich>=14.3.3",
     "tavily-python>=0.7.22",
 ]
